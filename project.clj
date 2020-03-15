@@ -4,6 +4,7 @@
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [cheshire "5.10.0"]
+                 [clojure.java-time "0.3.2"]
                  [compojure "1.6.1"]
                  [hikari-cp "2.10.0"]
                  [org.postgresql/postgresql "42.2.11"]
