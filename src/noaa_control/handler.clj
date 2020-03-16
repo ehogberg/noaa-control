@@ -13,7 +13,8 @@
   "Minimum standard meta data to be included on every response, allowing for
    additions to be made on a response-by-response basis."
   ([] (standard-meta {}))
-  ([meta] (merge {:generated_at (str (offset-date-time))} meta)))
+  ([meta] (merge {:generated_at (str (offset-date-time))
+                  :noaa_schema_version 1} meta)))
 
 
 (defn json-data-response

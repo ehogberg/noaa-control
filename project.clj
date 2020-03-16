@@ -5,6 +5,8 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [cheshire "5.10.0"]
                  [clojure.java-time "0.3.2"]
+                 [com.fzakaria/slf4j-timbre "0.3.19"]
+                 [com.taoensso/timbre "4.10.0"]
                  [compojure "1.6.1"]
                  [hikari-cp "2.10.0"]
                  [org.postgresql/postgresql "42.2.11"]
