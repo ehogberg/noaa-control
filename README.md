@@ -1,6 +1,12 @@
 # noaa-control
 
-FIXME
+## Features
+
+- Display a list of NOAAs.
+- Paginate the list for better navigability
+- Find and display all noaas sent to a particular email address
+- Mark a noaa for re-transmission
+- Accept a lead/application id as needing a noaa and create an appropriate new record in the db.
 
 ## Prerequisites
 
