@@ -1,0 +1,2 @@
+^{:ring-handler noaa-control.handler/app}
+{:main noaa-control.core}
